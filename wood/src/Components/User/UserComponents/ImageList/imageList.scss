@@ -1,0 +1,67 @@
+.imageListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.listItem {
+  //width: 24%;
+  padding: 5px !important;
+
+  & > div {
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s;
+    position: relative;
+
+    &:hover .thumb_overlay {
+      opacity: 1;
+      background: rgba(39, 33, 45, 0.8);
+    }
+
+    &:hover .thumb_overlay:before {
+      transform: translateX(-50%) translateY(-50%) rotate(90deg);
+    }
+
+    & img {
+      width: 100%;
+      height: auto;
+      transition: 0.5s all ease;
+    }
+
+    &:hover img {
+      transform: scale(1.3);
+    }
+  }
+
+}
+
+.thumb_overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%;
+  color: #fff;
+  position: absolute;
+  background: transparent;
+  transition: 0.3s all ease;
+
+  &:before {
+    top: 50%;
+    right: 0;
+    left: 50%;
+    content: '';
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    transition: 0.3s all ease;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../../../../assets/images/thumb_img.png) no-repeat;
+  }
+}

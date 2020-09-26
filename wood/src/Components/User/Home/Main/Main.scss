@@ -1,0 +1,27 @@
+.squareContainer {
+  margin: 0;
+
+  & .square {
+    padding: 0;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  & .squareText {
+    background-color: #CFD8DC;
+    text-align: center;
+    padding: 120px 0;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    letter-spacing: 2.8px;
+
+    & div {
+      padding: 7% 20%;
+      color: rgba(0, 0, 0, .5);
+    }
+  }
+}

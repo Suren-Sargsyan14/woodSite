@@ -1,0 +1,81 @@
+.afterHeader {
+  margin-top: 105px;
+}
+
+.carouselItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px;
+  color: white;
+  font-size: 22px;
+}
+
+.itemName {
+  margin: 25px auto;
+}
+
+.itemDescription {
+  margin: 0 auto 30px auto;
+}
+
+.line {
+  width: 30%;
+  border-bottom: 1px solid white;
+  margin: 0 auto;
+}
+
+.blackLine {
+  width: 25%;
+  border-bottom: 1px solid black;
+  margin: 30px auto;
+}
+
+.lightLine {
+  width: 25%;
+  border-bottom: 1px solid #CFD8DC;
+  margin: 30px auto;
+}
+
+.blackLine {
+  width: 25%;
+  border-bottom: 1px solid black;
+  margin: 30px auto;
+}
+
+.Parallax {
+  padding-top: 300px;
+  padding-bottom: 300px;
+
+  & * {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  & h3 {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 6px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+
+  & h2 {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 100;
+    letter-spacing: 12px;
+    font-family: "Roboto Slab", serif;
+    margin: 22px 0;
+  }
+
+  & p {
+    margin-top: 89px;
+    letter-spacing: 3.6px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+}

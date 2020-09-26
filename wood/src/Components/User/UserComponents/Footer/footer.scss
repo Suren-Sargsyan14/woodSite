@@ -1,0 +1,48 @@
+.footer {
+  padding-top: 121px;
+  padding-bottom: 129px;
+  background: #4a4c4d;
+  text-align: center;
+  color: #CFD8DC;
+
+  & h6 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  & address {
+    margin-top: 40px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-style: normal;
+  }
+
+  & .phone {
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5.6px;
+    margin-top: 20px;
+
+    & a {
+      color: #CFD8DC;
+      text-transform: none;
+
+      &:hover {
+        color: #929094;
+      }
+    }
+  }
+
+  & .icons {
+    & a {
+      display: inline-block;
+      color: #CFD8DC;
+      margin: 20px;
+    }
+  }
+}
